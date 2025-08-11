@@ -1,209 +1,250 @@
 const config = {
-  "modalQuestions": [
-    {
-      "id": "live_event_experience",
-      "questionText": "When it comes to experiences, how do you rate attending live sports events?",
-      "options": [
-        { "value": "must_have_regular", "text": "Must-have, I attend games regularly" },
-        { "value": "enjoyable_few_times", "text": "Enjoyable, I go a few times a year" },
-        { "value": "fun_rarely", "text": "Fun, but I rarely go" },
-        { "value": "not_sports_fan", "text": "I'm not a sports fan" }
-      ]
-    },
-    {
-      "id": "current_living_situation",
-      "questionText": "Which of the following best describes your current living situation?",
-      "options": [
-        { "value": "own_consider_upgrading", "text": "I own my home and am considering upgrading" },
-        { "value": "own_happy", "text": "I own my home and am happy with it" },
-        { "value": "rent_plan_buy_soon", "text": "I rent but plan to buy soon" },
-        { "value": "rent_no_plans", "text": "I rent with no immediate plans to purchase" }
-      ]
-    },
-    {
-      "id": "canada_day_celebration",
-      "questionText": "How do you usually celebrate national holidays, like Canada Day?",
-      "options": [
-        { "value": "hosting_events", "text": "Hosting/attending events or parties" },
-        { "value": "traveling_vacations", "text": "Travelling or planning vacations" },
-        { "value": "local_public_events", "text": "Enjoying local public events or festivals" },
-        { "value": "relaxing_home", "text": "Relaxing at home" }
-      ]
-    },
-    {
-      "id": "transport_preference",
-      "questionText": "What is your preference for transportation to a sporting event?",
-      "options": [
-        { "value": "public_transport", "text": "Public transport" },
-        { "value": "drive", "text": "Drive my own car" },
-        { "value": "ride_sharing", "text": "Ride-sharing services" },
-        { "value": "walk", "text": "I live close enough to walk" }
-      ]
-    }
-  ],
+  "meta": {
+    "pageTitle": "Win the Ultimate Back to School Family Night – $300+ Prize Value!",
+    "navBrandLogoText": "Peter Stubnya",
+    "privacyPolicyLink": ""
+  },
   "giveaway": {
-    "name": "Jays Tickets Canada Day Giveaway",
-    "heroHeadline": "Win <span class='highlight'>Free Jays Game Tickets</span> At Our Canada Day Booth!",
-    "heroSubheadline": "Love baseball? Celebrate Canada Day in style with your chance to catch the Jays live! Enter now for a shot at tickets worth $100 	6ront miss out!",
-    "promotionDates": "Enter at our Canada Day booth on July 1st. Winner will be drawn July 2, 2025!",
-    "endDate": "2025-07-02T23:59:59",
-    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/38xw2wnjphrma0cqgnk8eq6n2r.jpg",
-    "heroCtaText": "Enter to Win Now",
-    "entryFormCtaText": "Enter for Jays Tickets!",
-    "successModalHeaderText": "You're In!",
-    "successModalMainMessage": "Your entry for the <strong>Jays Tickets Canada Day Giveaway</strong> has been received! We9ll draw and notify the winner by email on July 2, 2025. Good luck!",
-    "successModalEmailPrompt": "Watch your inbox on July 2nd for winner news!"
+    "heroHeadline": "Win a <span class='highlight'>Family Fun Night</span> Before School Starts!",
+    "heroSubheadline": "Treat your kids to big smiles with all-day bounce fun, tasty food, and free school supplies! Enter now — entries close August 31, 2025.",
+    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/ht92qt707drmc0crka598fa5dg.jpg",
+    "promotionDates": "Give your family summer memories—enter between August 15 and August 31, 2025. Winner announced September 1!",
+    "endDate": "2025-09-01T03:59:00.000Z",
+    "heroCtaText": "Enter to Win Now!",
+    "entryFormCtaText": "Enter My Family!",
+    "name": "Back to School Family Fun Night Giveaway",
+    "successModalHeaderText": "You’re Entered!",
+    "successModalMainMessage": "Your entry for the <strong>Back to School Family Fun Night</strong> is in! We’ll draw for the winner September 1 and email you if your family is the lucky one. Good luck!",
+    "successModalEmailPrompt": "Watch your inbox (or spam folder) September 1. Share this giveaway with more families!"
+  },
+  "settings": {
+    "confettiColors": [
+      "#000000",
+      "#ffffff",
+      "#777777"
+    ],
+    "showCountdownInHero": true,
+    "theme": "dark",
+    "primaryColorOverride": "",
+    "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
+    "facebookPixelId": "1057475448873422",
+    "salesGeniusAppApi": "",
+    "followUpBossEmail": ""
+  },
+  "thankYouPage": {
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "🎉 You’re Entered!",
+    "mainMessage": "Your entry for the <strong>Back to School Family Fun Night</strong> is in! We’ll draw for the winner September 1 and email you if your family is the lucky one. Good luck!",
+    "socialPromptText": "Watch your inbox (or spam folder) September 1. Share this giveaway with more families!"
   },
   "prize": {
-    "name": "Jays Game Ticket Giveaway",
-    "value": "$100 Value",
-    "description": "Imagine yourself cheering in the stands, feeling the excitement as the Jays play under the bright summer sun. Win tickets for a Toronto Blue Jays game and enjoy a day of fun, food, and unforgettable moments. We love going to the ballpark and want to share that with you!",
     "images": [
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/9cjh4n7sanrmc0cqgnk9ntmzfc.jpg",
-        "alt": "People cheering in the stands at a Toronto Blue Jays game"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/6kzvhbt5bnrme0crka5vsj1aqw.jpg",
+        "alt": "Kids bouncing with joy at an indoor activity centre"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/zszwdhstedrme0cqgnkrxegrq0.jpg",
-        "alt": "Jays fans smiling and having fun at the ballpark"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/3cvy4pmwynrma0crka5rda7dnm.jpg",
+        "alt": "Family laughing and enjoying a meal at a restaurant"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/v4bsm43t2hrma0cqgnktq7jajc.jpg",
-        "alt": "Canada Day celebration at a baseball stadium"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/kxvgy8fr69rm80crka5t54qyjw.jpg",
+        "alt": "Children shopping for school supplies at Staples"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/9keqpgnt8hrme0cqgnksjdkxf4.jpg",
-        "alt": "Kids and adults enjoying a summer Jays game"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/pb6dz42m4xrmc0crka6b1g8f74.jpg",
+        "alt": "Happy family enjoying a special night out before school"
       }
     ],
     "includedItems": [
-      { "icon": "fas fa-ticket-alt", "text": "Tickets for a Jays baseball game" },
-      { "icon": "fas fa-baseball-ball", "text": "Choose your game date (from available options)" },
-      { "icon": "fas fa-users", "text": "Perfect for friends, families, or fans" },
-      { "icon": "fas fa-star", "text": "$100 total prize value" }
+      {
+        "icon": "fas fa-landmark",
+        "text": "Family night out at The Factory, London, Ontario"
+      },
+      {
+        "icon": "fas fa-child",
+        "text": "All-day bounce entry for kids"
+      },
+      {
+        "icon": "fas fa-utensils",
+        "text": "$100 clubhouse restaurant gift card for dinner"
+      },
+      {
+        "icon": "fas fa-pencil-alt",
+        "text": "$100 Staples gift card for school supplies"
+      },
+      {
+        "icon": "fas fa-users",
+        "text": "Perfect for families with kids below high school age"
+      }
     ],
-    "limitedTimeOfferText": "Limited Canada Day Giveaway 	6 Only One Winner!",
-    "ctaButtonText": "I Want Jays Tickets!"
+    "name": "Back to School Family Fun Night Giveaway",
+    "value": "$300 Total Value",
+    "description": "Imagine a special night with your kids—jumping, laughing, eating delicious food, and getting ready for the new school year. One lucky family will enjoy a whole evening out, making memories before school begins.",
+    "limitedTimeOfferText": "Only for a short time! Enter before August 31.",
+    "ctaButtonText": "I Want This Family Night!"
   },
   "howToEnter": {
     "steps": [
       {
         "icon": "fas fa-edit",
         "title": "Fill Out the Form",
-        "description": "Stop by our booth on Canada Day and fill out a quick entry form. Just your name and email needed!"
+        "description": "Share your name and email with us below—it only takes a minute!"
       },
       {
-        "icon": "fas fa-check-circle",
-        "title": "Submit Your Entry",
-        "description": "Drop your entry into our giveaway box 	6 it only takes a few seconds."
+        "icon": "fas fa-question-circle",
+        "title": "Answer a Few Questions",
+        "description": "Tell us about your family and your back to school plans. Super easy!"
       },
       {
-        "icon": "fas fa-trophy",
-        "title": "Winner Announced",
-        "description": "We9ll draw and contact the winner on July 2, 2025 	6 just in time for summer fun!"
+        "icon": "fas fa-check",
+        "title": "You're Entered!",
+        "description": "That's it! We’ll choose and email the winner September 1, 2025."
       }
     ],
     "highlights": [
-      { "icon": "fas fa-clock", "text": "Entry takes less than 1 minute" },
-      { "icon": "fas fa-gift", "text": "No purchase, completely free" },
-      { "icon": "fas fa-users", "text": "Open to anyone who loves baseball" },
-      { "icon": "fas fa-random", "text": "Fair and random winner" }
-    ]
-  },
-  "entryForm": {
-    "subtitle": "Enter your details below for a chance to win Jays tickets 	6 perfect for baseball fans!",
-    "entryCountText": "Hundreds of neighbors have already entered 	6 don9t miss out!",
-    "socialSharePrompt": "Love this chance? Share with your fellow baseball fans!",
-    "sharePlatforms": {
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href),
-      "twitter": "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href) + "&text=" + encodeURIComponent("Celebrate Canada Day with a chance to win Jays tickets!")
-    },
-    "entryFormCtaText": "Enter for Jays Tickets!"
-  },
-  "rules": {
+      {
+        "icon": "fas fa-gift",
+        "text": "Totally free to enter"
+      },
+      {
+        "icon": "fas fa-clock",
+        "text": "Quick, 1-minute form"
+      },
+      {
+        "icon": "fas fa-users",
+        "text": "Perfect for families with younger kids"
+      },
+      {
+        "icon": "fas fa-award",
+        "text": "Winner picked fair and square"
+      },
+      {
+        "icon": "fas fa-utensils",
+        "text": "Dinner, fun, and back to school shopping on us!"
+      }
+    ],
     "fairSelectionInfo": {
-      "title": "Every Entry Counts!",
-      "text": "All entries go into a fair, random draw. No tricks or hidden rules."
+      "title": "Fair Random Winner",
+      "text": "The winner will be picked with a random draw. Every family who enters has the same chance to win!"
     },
     "importantNotice": {
-      "title": "Winner Chosen July 2nd!",
-      "text": "The lucky winner will be contacted by email on July 2, 2025. Watch your inbox!"
+      "title": "Watch Your Inbox!",
+      "text": "Winner gets an email from pete@pickpete.ca on September 1. Check your spam folder that day just in case."
     },
     "faq": [
       {
-        "q": "Who can enter this giveaway?",
-        "a": "Anyone who loves baseball can enter. All ages welcome!"
+        "q": "Who can enter?",
+        "a": "Families with kids in grade school or younger who live near London, Ontario can enter. Must be 18 or older."
       },
       {
-        "q": "Do I need to buy anything to enter?",
-        "a": "No! Stopping by the booth and filling out the entry form is all it takes."
+        "q": "How do I know if I win?",
+        "a": "We email the winner directly on September 1, 2025."
       },
       {
-        "q": "How is the winner chosen?",
-        "a": "A random draw from all valid entries. It9s fair and simple!"
+        "q": "Does it cost anything to enter?",
+        "a": "No! Entry is 100% free. No purchase needed."
       },
       {
-        "q": "When will the winner be announced?",
-        "a": "We will contact the winner by email on July 2, 2025."
+        "q": "What if my kids are starting high school?",
+        "a": "This one’s just for families with kids below high school age to help with their big back to school jump."
       },
       {
-        "q": "What if I can9t make it to the Jays game?",
-        "a": "We9ll discuss alternative dates if possible 	6 but the prize is for Jays tickets only."
+        "q": "How do I get my prize?",
+        "a": "We’ll contact you to arrange delivery once you win!"
+      },
+      {
+        "q": "Can I share this with friends?",
+        "a": "Yes! Please tell any friends with kids—sharing is caring."
       }
     ],
     "tips": [
-      "Double-check your email for accuracy",
-      "Add shar@theskygroup.ca to your contacts to get winner updates",
-      "Tell your friends and enjoy the booth fun on Canada Day",
-      "Follow us on Instagram and Facebook for prize updates"
+      "Double check your email before submitting",
+      "Share this page with other parents you know",
+      "Add pete@pickpete.ca to your email contacts",
+      "Enter by August 31 so you don’t miss out"
     ]
   },
+  "entryForm": {
+    "sharePlatforms": {
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-537.netlify.app%2Fadmin",
+      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-537.netlify.app%2Fadmin&text=Win%20the%20Ultimate%20Back%20to%20School%20Family%20Night%20%E2%80%93%20%24300%2B%20Prize%20Value!"
+    },
+    "subtitle": "Enter your family’s info for your shot at this big back to school prize!",
+    "entryCountText": "Over 100 families have already entered! Don’t let your kids miss out.",
+    "socialSharePrompt": "Know another family who’d love this? Share the giveaway page!",
+    "entryFormCtaText": "Enter My Family!"
+  },
+  "modalQuestions": [
+    {
+      "id": "q_1",
+      "questionText": "As your kids transition to a new school year, which of the following best describes your living situation?",
+      "options": [
+        {"value": "We're considering a new home for more space.", "text": "We're considering a new home for more space."},
+        {"value": "Comfortable in our current home but open to opportunities.", "text": "Comfortable in our current home but open to opportunities."},
+        {"value": "Just settled into a new home.", "text": "Just settled into a new home."},
+        {"value": "No plans to move for the foreseeable future.", "text": "No plans to move for the foreseeable future."}
+      ]
+    },
+    {
+      "id": "q_2",
+      "questionText": "When preparing for a fun family night out, how important is proximity and convenience of local amenities?",
+      "options": [
+        {"value": "Extremely important; we value close amenities.", "text": "Extremely important; we value close amenities."},
+        {"value": "Moderately important; we're willing to travel a bit.", "text": "Moderately important; we're willing to travel a bit."},
+        {"value": "Not very important; we prefer destination activities.", "text": "Not very important; we prefer destination activities."},
+        {"value": "Not a consideration for us.", "text": "Not a consideration for us."}
+      ]
+    },
+    {
+      "id": "q_3",
+      "questionText": "Which part of planning for back-to-school excites you the most?",
+      "options": [
+        {"value": "Shopping for new school supplies.", "text": "Shopping for new school supplies."},
+        {"value": "Finding new ways to make family time special.", "text": "Finding new ways to make family time special."},
+        {"value": "Exploring new after-school activities in the area.", "text": "Exploring new after-school activities in the area."},
+        {"value": "Preparing the home for the school year ahead.", "text": "Preparing the home for the school year ahead."}
+      ]
+    },
+    {
+      "id": "q_4",
+      "questionText": "How do you typically celebrate significant family milestones or transitions, such as the start of a new school year?",
+      "options": [
+        {"value": "Hosting gatherings at our home.", "text": "Hosting gatherings at our home."},
+        {"value": "Exploring local venues and experiences.", "text": "Exploring local venues and experiences."},
+        {"value": "Taking mini getaways.", "text": "Taking mini getaways."},
+        {"value": "Keeping it simple and intimate.", "text": "Keeping it simple and intimate."}
+      ]
+    }
+  ],
   "footerContact": {
-    "organizerName": "Sky Group",
-    "organizerLogoUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/eed1f4ef-c781-4015-8092-dda5b2f860d9/68278639dbfc24a322fd422d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XFL2HBOV%2F20250618%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250618T232937Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGecz6R5WMRJ39mO4X9uZiwszyoeZfExmst4AxoYWbcVAiEA%2BYO%2Fu2Uey7e8UO2ahVk6rP2uDWFR9VhVc8S%2Fu7TmIM0qiAQIl%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGiIO382jJwxty9tpyrcAwELds8vvPeW6qyLvgUnQ0WH4VamcQG0mFgBpkci5o6iVkrZTCkWlV8Qc%2BV2rsnjljjLwsKTPNnFtfGM%2FYT1JwrYGb9HBw2707rIEFa4xgWUdjWJT4FqtCWbiOmlMhBd8S6G1ZI2rSp5iAbCDgrNt7exXqlULGs8DJgPlTqXG69K6iRRxE3RL06I883NpWy5rko0FS2qlrq1T4fzd66hUrcOCAqgxxQkBcjGb1Ry05phxsnp%2Fd0x4PgH25JFzQZMDe8J5xyXyH17RHiGk0HjPSe9kfWKe5p%2Fo%2B0uNb4Ds9gyMpaTouugQixH3VOMaBK49%2BFw3vXwUqK93n35nl%2BnQTzxBs5eXKJLEYnhcte8tvT7jLeHvymzh1PvFTEhwgEsRjAAOYTC4zk7SXCuprzs%2BnQTNiVddaVZIqK8znhIgrG3V0z7M6OlrgMvJTgFrxqdd0chPBBEwu5lHACTCafaMA905NhaOexmaps45Jkiy%2F3lhqEzrx23GlK1iKn4832Ofu9nP2P3cHfZ7YxU6qAWSN5PFdUd8RW%2F41ERgZ5R%2Be%2BhpucM1IGYfjGCpMAZbdHyfkvgairyR8xTZvmNz4HRwXSP485uNCwsbitqj72W%2FP%2BH8%2FfyuYOYlhxf2BnMMMD3zMIGOqUBh6q489Wjxh55K55TqXIEXZ24sGDWV0Ib6iPy0CDmtDgTBKBh5l%2F8tVYgXL27iQvQyjVp%2Bhd3MIvNQm3fHYrRz%2FIOPeSUuJYQq85eVvh9gocJfpUPCyqg7G%2FeEmlzTOqLBtldd8CqZjRhSE0cIOHZ7Nx70x0g%2B%2Bd1aYgF309UG7A%2F8hx%2BujBo%2Fx27syn5YFy7IJDn25cmqQjaMr5q1C4oONGUYvRl&X-Amz-Signature=53488ac36a5877db5a5f3156fc0032f963734cfd0c7b75cdfba6c479e58fd9b2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "secondaryLogoUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/eed1f4ef-c781-4015-8092-dda5b2f860d9/68278639dbfc24a322fd422d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XFL2HBOV%2F20250618%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250618T232937Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGecz6R5WMRJ39mO4X9uZiwszyoeZfExmst4AxoYWbcVAiEA%2BYO%2Fu2Uey7e8UO2ahVk6rP2uDWFR9VhVc8S%2Fu7TmIM0qiAQIl%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGiIO382jJwxty9tpyrcAwELds8vvPeW6qyLvgUnQ0WH4VamcQG0mFgBpkci5o6iVkrZTCkWlV8Qc%2BV2rsnjljjLwsKTPNnFtfGM%2FYT1JwrYGb9HBw2707rIEFa4xgWUdjWJT4FqtCWbiOmlMhBd8S6G1ZI2rSp5iAbCDgrNt7exXqlULGs8DJgPlTqXG69K6iRRxE3RL06I883NpWy5rko0FS2qlrq1T4fzd66hUrcOCAqgxxQkBcjGb1Ry05phxsnp%2Fd0x4PgH25JFzQZMDe8J5xyXyH17RHiGk0HjPSe9kfWKe5p%2Fo%2B0uNb4Ds9gyMpaTouugQixH3VOMaBK49%2BFw3vXwUqK93n35nl%2BnQTzxBs5eXKJLEYnhcte8tvT7jLeHvymzh1PvFTEhwgEsRjAAOYTC4zk7SXCuprzs%2BnQTNiVddaVZIqK8znhIgrG3V0z7M6OlrgMvJTgFrxqdd0chPBBEwu5lHACTCafaMA905NhaOexmaps45Jkiy%2F3lhqEzrx23GlK1iKn4832Ofu9nP2P3cHfZ7YxU6qAWSN5PFdUd8RW%2F41ERgZ5R%2Be%2BhpucM1IGYfjGCpMAZbdHyfkvgairyR8xTZvmNz4HRwXSP485uNCwsbitqj72W%2FP%2BH8%2FfyuYOYlhxf2BnMMMD3zMIGOqUBh6q489Wjxh55K55TqXIEXZ24sGDWV0Ib6iPy0CDmtDgTBKBh5l%2F8tVYgXL27iQvQyjVp%2Bhd3MIvNQm3fHYrRz%2FIOPeSUuJYQq85eVvh9gocJfpUPCyqg7G%2FeEmlzTOqLBtldd8CqZjRhSE0cIOHZ7Nx70x0g%2B%2Bd1aYgF309UG7A%2F8hx%2BujBo%2Fx27syn5YFy7IJDn25cmqQjaMr5q1C4oONGUYvRl&X-Amz-Signature=53488ac36a5877db5a5f3156fc0032f963734cfd0c7b75cdfba6c479e58fd9b2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "secondaryLogoAlt": "Property.Ca Brokerage Logo",
-    "email": "shar@theskygroup.ca",
-    "phone": "1 647 887 4996",
-    "address": "36 Distillery Lane Unit 500 Toronto M5A3C4",
-    "brokerageName": "Property.Ca",
     "social": {
-      "facebook": "https://www.facebook.com/theskygroupre",
-      "instagram": "https://www.instagram.com/theskygroup_re"
+      "facebook": "",
+      "instagram": ""
     },
     "agentContact": {
-      "name": "Shar Banifatemi",
-      "title": "Realtor, Sky Group",
-      "phone": "1 647 887 4996",
-      "email": "shar@theskygroup.ca"
+      "name": "Peter Stubnya",
+      "title": "Real Estate Agent",
+      "phone": "(519) 239-5539",
+      "email": "pete@pickpete.ca"
     },
-    "copyrightOwner": "Property.Ca",
-    "footerDisclaimer": "This giveaway is not sponsored by or affiliated with the Toronto Blue Jays or Rogers Centre. Winner will be drawn at random from all entries on July 2, 2025. Open to all attendees. No purchase necessary."
-  },
-  "meta": {
-    "pageTitle": "Win Free Jays Tickets This Canada Day 	6 $100 Value!",
-    "navBrandLogoText": "Sky Group",
-    "privacyPolicyLink": "https://www.mls.theskygroup.ca/privacy-policy"
-  },
-  "settings": {
-    "theme": "dark",
-    "primaryColorOverride": "",
-    "showCountdownInHero": true,
-    "facebookPixelId": "1057475448873422",
-    "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-"thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "🎉 Thank You! 🎉",
-    "mainMessage": "Your entry has been successfully submitted. We'll announce the winner soon. Good luck!",
-    "socialPromptText": "To complete your giveaway entry and stay updated, please follow us on our social media channels:"
-    
+    "footerDisclaimer": "This giveaway is sponsored by Peter Stubnya. It is not connected with The Factory, Staples, or The Clubhouse. Winner chosen randomly September 1, 2025. Must be 18+ and local resident to enter.",
+    "organizerLogoUrl": "",
+    "secondaryLogoUrl": "",
+    "secondaryLogoAlt": "Brokerage Logo",
+    "organizerName": "Peter Stubnya",
+    "brokerageName": "",
+    "address": "",
+    "email": "pete@pickpete.ca",
+    "phone": "(519) 239-5539",
+    "copyrightOwner": "Peter Stubnya"
   },
   "deploymentInfo": {
-    "repoName": "Giveaway-598",
-    "repoUrl": "https://github.com/arslvn93/Giveaway-598",
-    "netlifyUrl": "http://Giveaway-598.netlify.app",
-    "netlifyId": "1004625043"
+    "repoName": "Giveaway-537",
+    "repoUrl": "https://github.com/arslvn93/Giveaway-537",
+    "netlifyUrl": "http://Giveaway-537.netlify.app",
+    "netlifyId": "",
+    "tag": "Back to School Family Fun Night Giveaway"
   }
 };
