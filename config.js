@@ -143,90 +143,68 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755103818484_0",
-      "questionText": "As your kids transition to a new school year, which of the following best describes your living situation?",
+      "id": "q_auto_1755104038740_0",
+      "questionText": "What do you like the most about your current home?",
       "options": [
         {
-          "value": "We're considering a new home for more space.",
-          "text": "We're considering a new home for more space."
+          "value": "The location",
+          "text": "The location"
         },
         {
-          "value": "Comfortable in our current home but open to opportunities.",
-          "text": "Comfortable in our current home but open to opportunities."
+          "value": "The layout",
+          "text": "The layout"
         },
         {
-          "value": "Just settled into a new home.",
-          "text": "Just settled into a new home."
+          "value": "The finishes (paint, lighting, etc.)",
+          "text": "The finishes (paint, lighting, etc.)"
         },
         {
-          "value": "No plans to move for the foreseeable future.",
-          "text": "No plans to move for the foreseeable future."
+          "value": "The outdoor space",
+          "text": "The outdoor space"
         }
       ]
     },
     {
-      "id": "q_auto_1755103818484_1",
-      "questionText": "When preparing for a fun family night out, how important is proximity and convenience of local amenities?",
+      "id": "q_auto_1755104038740_1",
+      "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
-          "value": "Extremely important; we value close amenities.",
-          "text": "Extremely important; we value close amenities."
+          "value": "Yes, sometime in 2025",
+          "text": "Yes, sometime in 2025"
         },
         {
-          "value": "Moderately important; we're willing to travel a bit.",
-          "text": "Moderately important; we're willing to travel a bit."
+          "value": "Yes, in the next 1–2 years",
+          "text": "Yes, in the next 1–2 years"
         },
         {
-          "value": "Not very important; we prefer destination activities.",
-          "text": "Not very important; we prefer destination activities."
+          "value": "Not at the moment",
+          "text": "Not at the moment"
         },
         {
-          "value": "Not a consideration for us.",
-          "text": "Not a consideration for us."
+          "value": "I’m not sure yet",
+          "text": "I’m not sure yet"
         }
       ]
     },
     {
-      "id": "q_auto_1755103818484_2",
-      "questionText": "Which part of planning for back-to-school excites you the most?",
+      "id": "q_auto_1755104038740_2",
+      "questionText": "What’s your current housing situation?",
       "options": [
         {
-          "value": "Shopping for new school supplies.",
-          "text": "Shopping for new school supplies."
+          "value": "I rent and am interested in buying",
+          "text": "I rent and am interested in buying"
         },
         {
-          "value": "Finding new ways to make family time special.",
-          "text": "Finding new ways to make family time special."
+          "value": "I own and might sell within 2 years",
+          "text": "I own and might sell within 2 years"
         },
         {
-          "value": "Exploring new after-school activities in the area.",
-          "text": "Exploring new after-school activities in the area."
+          "value": "I own and am happy where I am",
+          "text": "I own and am happy where I am"
         },
         {
-          "value": "Preparing the home for the school year ahead.",
-          "text": "Preparing the home for the school year ahead."
-        }
-      ]
-    },
-    {
-      "id": "q_auto_1755103818484_3",
-      "questionText": "How do you typically celebrate significant family milestones or transitions, such as the start of a new school year?",
-      "options": [
-        {
-          "value": "Hosting gatherings at our home.",
-          "text": "Hosting gatherings at our home."
-        },
-        {
-          "value": "Exploring local venues and experiences.",
-          "text": "Exploring local venues and experiences."
-        },
-        {
-          "value": "Taking mini getaways.",
-          "text": "Taking mini getaways."
-        },
-        {
-          "value": "Keeping it simple and intimate.",
-          "text": "Keeping it simple and intimate."
+          "value": "I’m actively looking to buy or sell now",
+          "text": "I’m actively looking to buy or sell now"
         }
       ]
     }
