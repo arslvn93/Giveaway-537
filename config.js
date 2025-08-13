@@ -2,7 +2,7 @@ const config = {
   "meta": {
     "pageTitle": "Win the Ultimate Back to School Family Night – $300+ Prize Value!",
     "navBrandLogoText": "Peter Stubnya",
-    "privacyPolicyLink": ""
+    "privacyPolicyLink": "https://www.pickpete.ca/site/privacy-terms"
   },
   "giveaway": {
     "heroHeadline": "Win a <span class='highlight'>Family Fun Night</span> Before School Starts!",
@@ -27,16 +27,10 @@ const config = {
     "theme": "dark",
     "primaryColorOverride": "",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-  "thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "🎉 You’re Entered!",
-    "mainMessage": "Your entry for the <strong>Back to School Family Fun Night</strong> is in! We’ll draw for the winner September 1 and email you if your family is the lucky one. Good luck!",
-    "socialPromptText": "Watch your inbox (or spam folder) September 1. Share this giveaway with more families!"
+    "followUpBossEmail": "",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -124,47 +118,19 @@ const config = {
         "icon": "fas fa-utensils",
         "text": "Dinner, fun, and back to school shopping on us!"
       }
-    ],
+    ]
+  },
+  "rules": {
+    "faq": [],
+    "tips": [],
     "fairSelectionInfo": {
-      "title": "Fair Random Winner",
-      "text": "The winner will be picked with a random draw. Every family who enters has the same chance to win!"
+      "title": "",
+      "text": ""
     },
     "importantNotice": {
-      "title": "Watch Your Inbox!",
-      "text": "Winner gets an email from pete@pickpete.ca on September 1. Check your spam folder that day just in case."
-    },
-    "faq": [
-      {
-        "q": "Who can enter?",
-        "a": "Families with kids in grade school or younger who live near London, Ontario can enter. Must be 18 or older."
-      },
-      {
-        "q": "How do I know if I win?",
-        "a": "We email the winner directly on September 1, 2025."
-      },
-      {
-        "q": "Does it cost anything to enter?",
-        "a": "No! Entry is 100% free. No purchase needed."
-      },
-      {
-        "q": "What if my kids are starting high school?",
-        "a": "This one’s just for families with kids below high school age to help with their big back to school jump."
-      },
-      {
-        "q": "How do I get my prize?",
-        "a": "We’ll contact you to arrange delivery once you win!"
-      },
-      {
-        "q": "Can I share this with friends?",
-        "a": "Yes! Please tell any friends with kids—sharing is caring."
-      }
-    ],
-    "tips": [
-      "Double check your email before submitting",
-      "Share this page with other parents you know",
-      "Add pete@pickpete.ca to your email contacts",
-      "Enter by August 31 so you don’t miss out"
-    ]
+      "title": "",
+      "text": ""
+    }
   },
   "entryForm": {
     "sharePlatforms": {
@@ -173,55 +139,114 @@ const config = {
     },
     "subtitle": "Enter your family’s info for your shot at this big back to school prize!",
     "entryCountText": "Over 100 families have already entered! Don’t let your kids miss out.",
-    "socialSharePrompt": "Know another family who’d love this? Share the giveaway page!",
-    "entryFormCtaText": "Enter My Family!"
+    "socialSharePrompt": "Know another family who’d love this? Share the giveaway page!"
   },
   "modalQuestions": [
     {
-      "id": "q_1",
+      "id": "q_auto_1755103818484_0",
       "questionText": "As your kids transition to a new school year, which of the following best describes your living situation?",
       "options": [
-        {"value": "We're considering a new home for more space.", "text": "We're considering a new home for more space."},
-        {"value": "Comfortable in our current home but open to opportunities.", "text": "Comfortable in our current home but open to opportunities."},
-        {"value": "Just settled into a new home.", "text": "Just settled into a new home."},
-        {"value": "No plans to move for the foreseeable future.", "text": "No plans to move for the foreseeable future."}
+        {
+          "value": "We're considering a new home for more space.",
+          "text": "We're considering a new home for more space."
+        },
+        {
+          "value": "Comfortable in our current home but open to opportunities.",
+          "text": "Comfortable in our current home but open to opportunities."
+        },
+        {
+          "value": "Just settled into a new home.",
+          "text": "Just settled into a new home."
+        },
+        {
+          "value": "No plans to move for the foreseeable future.",
+          "text": "No plans to move for the foreseeable future."
+        }
       ]
     },
     {
-      "id": "q_2",
+      "id": "q_auto_1755103818484_1",
       "questionText": "When preparing for a fun family night out, how important is proximity and convenience of local amenities?",
       "options": [
-        {"value": "Extremely important; we value close amenities.", "text": "Extremely important; we value close amenities."},
-        {"value": "Moderately important; we're willing to travel a bit.", "text": "Moderately important; we're willing to travel a bit."},
-        {"value": "Not very important; we prefer destination activities.", "text": "Not very important; we prefer destination activities."},
-        {"value": "Not a consideration for us.", "text": "Not a consideration for us."}
+        {
+          "value": "Extremely important; we value close amenities.",
+          "text": "Extremely important; we value close amenities."
+        },
+        {
+          "value": "Moderately important; we're willing to travel a bit.",
+          "text": "Moderately important; we're willing to travel a bit."
+        },
+        {
+          "value": "Not very important; we prefer destination activities.",
+          "text": "Not very important; we prefer destination activities."
+        },
+        {
+          "value": "Not a consideration for us.",
+          "text": "Not a consideration for us."
+        }
       ]
     },
     {
-      "id": "q_3",
+      "id": "q_auto_1755103818484_2",
       "questionText": "Which part of planning for back-to-school excites you the most?",
       "options": [
-        {"value": "Shopping for new school supplies.", "text": "Shopping for new school supplies."},
-        {"value": "Finding new ways to make family time special.", "text": "Finding new ways to make family time special."},
-        {"value": "Exploring new after-school activities in the area.", "text": "Exploring new after-school activities in the area."},
-        {"value": "Preparing the home for the school year ahead.", "text": "Preparing the home for the school year ahead."}
+        {
+          "value": "Shopping for new school supplies.",
+          "text": "Shopping for new school supplies."
+        },
+        {
+          "value": "Finding new ways to make family time special.",
+          "text": "Finding new ways to make family time special."
+        },
+        {
+          "value": "Exploring new after-school activities in the area.",
+          "text": "Exploring new after-school activities in the area."
+        },
+        {
+          "value": "Preparing the home for the school year ahead.",
+          "text": "Preparing the home for the school year ahead."
+        }
       ]
     },
     {
-      "id": "q_4",
+      "id": "q_auto_1755103818484_3",
       "questionText": "How do you typically celebrate significant family milestones or transitions, such as the start of a new school year?",
       "options": [
-        {"value": "Hosting gatherings at our home.", "text": "Hosting gatherings at our home."},
-        {"value": "Exploring local venues and experiences.", "text": "Exploring local venues and experiences."},
-        {"value": "Taking mini getaways.", "text": "Taking mini getaways."},
-        {"value": "Keeping it simple and intimate.", "text": "Keeping it simple and intimate."}
+        {
+          "value": "Hosting gatherings at our home.",
+          "text": "Hosting gatherings at our home."
+        },
+        {
+          "value": "Exploring local venues and experiences.",
+          "text": "Exploring local venues and experiences."
+        },
+        {
+          "value": "Taking mini getaways.",
+          "text": "Taking mini getaways."
+        },
+        {
+          "value": "Keeping it simple and intimate.",
+          "text": "Keeping it simple and intimate."
+        }
       ]
     }
   ],
+  "thankYouPage": {
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "🎉 You’re Entered!",
+    "mainMessage": "Your entry for the <strong>Back to School Family Fun Night</strong> is in! We’ll draw for the winner September 1 and email you if your family is the lucky one. Good luck!",
+    "socialPromptText": "Watch your inbox (or spam folder) September 1. Share this giveaway with more families!"
+  },
   "footerContact": {
     "social": {
-      "facebook": "",
-      "instagram": ""
+      "facebook": "https://www.facebook.com/PickPeteRealtor",
+      "instagram": "https://www.instagram.com/pickpete"
     },
     "agentContact": {
       "name": "Peter Stubnya",
@@ -230,12 +255,12 @@ const config = {
       "email": "pete@pickpete.ca"
     },
     "footerDisclaimer": "This giveaway is sponsored by Peter Stubnya. It is not connected with The Factory, Staples, or The Clubhouse. Winner chosen randomly September 1, 2025. Must be 18+ and local resident to enter.",
-    "organizerLogoUrl": "",
+    "organizerLogoUrl": "https://cdn.lofty.com/image/fs/user-info/202535/13/h200_original_63466de9-d794-423f-a890-40a116341d5a-png.webp",
     "secondaryLogoUrl": "",
-    "secondaryLogoAlt": "Brokerage Logo",
+    "secondaryLogoAlt": "",
     "organizerName": "Peter Stubnya",
-    "brokerageName": "",
-    "address": "",
+    "brokerageName": "​Real Broker Ontario Ltd",
+    "address": "130 King St W UNIT 1800B, Toronto, ON M5X 1E3, Canada",
     "email": "pete@pickpete.ca",
     "phone": "(519) 239-5539",
     "copyrightOwner": "Peter Stubnya"
