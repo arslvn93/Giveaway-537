@@ -5,8 +5,8 @@ const config = {
     "privacyPolicyLink": "https://www.pickpete.ca/site/privacy-terms"
   },
   "giveaway": {
-    "heroHeadline": "Experience Canada’s <span class='highlight'>largest indoor adventure park</span> and entertainment centre!\n",
-    "heroSubheadline": "As Canada’s Largest Indoor Adventure Park, The Factory is uniquely located in a century-old former Kellogg’s factory in London Ontario. With lots of indoor adventure including North America’s largest indoor high ropes course, 20,000 square foot trampoline park, warrior course, kids’ playground, arcade, virtual reality and our new Slime Factory, there’s guaranteed fun for everyone. — entries close August 31, 2025.",
+    "heroHeadline": "Win a <span class='highlight'>Family Adventure Night</span> at Canada's Largest Indoor Park!",
+    "heroSubheadline": "Experience North America's biggest indoor high ropes course, massive trampoline park, warrior course, arcade, VR, and the new Slime Factory—plus tasty food and free school supplies! Enter now — entries close August 31, 2025.",
     "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/ht92qt707drmc0crka598fa5dg.jpg",
     "promotionDates": "Give your family summer memories—enter between August 15 and August 31, 2025. Winner announced September 1!",
     "endDate": "2025-09-01T03:59:00.000Z",
@@ -152,7 +152,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1755866731196_0",
+      "id": "q_auto_1755867400785_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -174,7 +174,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755866731196_1",
+      "id": "q_auto_1755867400785_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -196,7 +196,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1755866731196_2",
+      "id": "q_auto_1755867400785_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
