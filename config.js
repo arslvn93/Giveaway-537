@@ -8,7 +8,7 @@ const config = {
     "heroHeadline": "Win a <span class='highlight'>Family Adventure Night</span> at Canada's Largest Indoor Park!",
     "heroSubheadline": "Experience North America's biggest indoor high ropes course, massive trampoline park, warrior course, arcade, VR, and the new Slime Factory—plus tasty food! Enter now — entries close September 23rd, 2025.",
     "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/ht92qt707drmc0crka598fa5dg.jpg",
-    "promotionDates": "Give your family summer memories—enter between September 4 and September 23, 2025. Winner announced September 25!",
+    "promotionDates": "Give your family a well-deserved celebration—enter between September 4 and September 23, 2025. Winner announced September 25!",
     "endDate": "2025-09-24T03:59:00.000Z",
     "heroCtaText": "Enter to Win Now!",
     "entryFormCtaText": "Enter My Family!",
@@ -61,8 +61,8 @@ const config = {
         "text": "$100 clubhouse restaurant gift card for dinner"
       },
       {
-        "icon": "fas fa-pencil-alt",
-        "text": "$100 Staples gift card for school supplies"
+        "icon": "fas fa-heart",
+        "text": "Quality time for parents and kids together"
       },
       {
         "icon": "fas fa-users",
@@ -70,7 +70,7 @@ const config = {
       }
     ],
     "name": "Back to School Family Fun Night Giveaway",
-    "value": "$300 Total Value",
+    "value": "$200 Total Value",
     "description": "Imagine a special night with your kids—jumping, laughing, eating delicious food, and celebrating how well they've settled into the new school year. One lucky family will enjoy a whole evening out, making memories and having fun together.",
     "limitedTimeOfferText": "Only for a short time! Enter before September 23.",
     "ctaButtonText": "I Want This Family Night!"
@@ -148,7 +148,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1756986452300_0",
+      "id": "q_auto_1756987931807_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -170,7 +170,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756986452301_1",
+      "id": "q_auto_1756987931807_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -192,7 +192,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756986452301_2",
+      "id": "q_auto_1756987931807_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
