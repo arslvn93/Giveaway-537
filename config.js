@@ -85,7 +85,7 @@ const config = {
       {
         "icon": "fas fa-question-circle",
         "title": "Answer a Few Questions",
-        "description": "Tell us about your family and your back to school plans. Super easy!"
+        "description": "Just a quick form to complete your entry. Super easy!"
       },
       {
         "icon": "fas fa-check",
@@ -148,7 +148,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1756987931807_0",
+      "id": "q_auto_1756988061625_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -170,7 +170,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756987931807_1",
+      "id": "q_auto_1756988061625_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -192,7 +192,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756987931807_2",
+      "id": "q_auto_1756988061625_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
