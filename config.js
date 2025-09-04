@@ -112,7 +112,7 @@ const config = {
       },
       {
         "icon": "fas fa-utensils",
-        "text": "Dinner, fun, and back to school shopping on us!"
+        "text": "Food, fun, and family time on us!"
       }
     ]
   },
@@ -148,7 +148,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1756988061625_0",
+      "id": "q_auto_1756988148571_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -170,7 +170,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756988061625_1",
+      "id": "q_auto_1756988148571_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -192,7 +192,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756988061625_2",
+      "id": "q_auto_1756988148571_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
