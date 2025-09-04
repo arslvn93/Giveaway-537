@@ -14,7 +14,7 @@ const config = {
     "entryFormCtaText": "Enter My Family!",
     "name": "Back to School Family Fun Night Giveaway",
     "successModalHeaderText": "You’re Entered!",
-    "successModalMainMessage": "Your entry for the <strong>Back to School Family Fun Night</strong> is in! We’ll draw for the winner on September 25 and email you if your family is the lucky one. Good luck!",
+    "successModalMainMessage": "Your entry for the <strong>Ultimate Family Fun Experience</strong> is in! We'll draw for the winner on September 25 and email you if your family is the lucky one. Good luck!",
     "successModalEmailPrompt": "Watch your inbox (or spam folder) on September 25. Share this giveaway with more families!"
   },
   "settings": {
@@ -142,13 +142,13 @@ const config = {
       "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-537.netlify.app%2Fadmin",
       "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-537.netlify.app%2Fadmin&text=Win%20the%20Ultimate%20Back%20to%20School%20Family%20Night%20%E2%80%93%20%24300%2B%20Prize%20Value!"
     },
-    "subtitle": "Enter your family’s info for your shot at this big back to school prize!",
+    "subtitle": "Enter your info for your shot at this amazing family prize!",
     "entryCountText": "Over 100 families have already entered! Don’t let your kids miss out.",
     "socialSharePrompt": "Know another family who’d love this? Share the giveaway page!"
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1756988148571_0",
+      "id": "q_auto_1756988264445_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -170,7 +170,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756988148571_1",
+      "id": "q_auto_1756988264445_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -192,7 +192,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756988148571_2",
+      "id": "q_auto_1756988264445_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
