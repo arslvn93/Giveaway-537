@@ -148,7 +148,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1757513561301_0",
+      "id": "q_auto_1757513625247_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -170,7 +170,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757513561301_1",
+      "id": "q_auto_1757513625247_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -192,7 +192,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757513561301_2",
+      "id": "q_auto_1757513625247_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -245,7 +245,7 @@ const config = {
     "brokerageName": "​Real Broker Ontario Ltd",
     "address": "1-389 Queens Avenue | London, Ontario N6B1X5",
     "email": "pete@pickpete.ca",
-    "phone": "(519) 239-5539",
+    "phone": "(365) 800-6262",
     "copyrightOwner": "Peter Stubnya"
   },
   "deploymentInfo": {
