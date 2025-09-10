@@ -148,7 +148,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1757513424049_0",
+      "id": "q_auto_1757513464922_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -170,7 +170,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757513424049_1",
+      "id": "q_auto_1757513464922_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -192,7 +192,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757513424049_2",
+      "id": "q_auto_1757513464922_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -234,7 +234,7 @@ const config = {
     "agentContact": {
       "name": "Peter Stubnya",
       "title": "Real Estate Agent",
-      "phone": "(519) 239-5539",
+      "phone": "(365) 800-6262",
       "email": "pete@pickpete.ca"
     },
     "footerDisclaimer": "This giveaway is sponsored by Peter Stubnya. It is not connected with The Factory, Staples, or The Clubhouse. Winner chosen randomly on September 25, 2025. Must be 18+ and a local resident to enter.",
