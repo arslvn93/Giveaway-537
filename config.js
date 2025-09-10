@@ -35,7 +35,7 @@ const config = {
   "prize": {
     "images": [
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/6kzvhbt5bnrme0crka5vsj1aqw.jpg",
+        "src": "https://i.ibb.co/WN1Zhqp9/Untitled-A4-Landscape-3.png",
         "alt": "Kids bouncing with joy at an indoor activity centre"
       },
       {
@@ -148,7 +148,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1756993016323_0",
+      "id": "q_auto_1757513424049_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -170,7 +170,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756993016323_1",
+      "id": "q_auto_1757513424049_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -192,7 +192,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1756993016323_2",
+      "id": "q_auto_1757513424049_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
